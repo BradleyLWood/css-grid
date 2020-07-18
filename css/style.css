@@ -1,0 +1,26 @@
+/* Core Styles */
+body {
+	background: #333;
+	color: #eee;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#hero > img {
+	position: absolute;
+	z-index: -1;
+}
+
+footer {
+	background: #000;
+	color: #eee;
+}
